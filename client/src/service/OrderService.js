@@ -2,7 +2,6 @@ import axios from "axios";
 import toast from "react-hot-toast";
 
 export const placeOrder = async ({planId, getToken, onSuccess, backendUrl}) => {
-
     try {
         const token = await getToken();
         const response = await axios.post(`${backendUrl}/orders?planId=${planId}`, {}, {headers: {Authorization: `Bearer ${token}`}});
