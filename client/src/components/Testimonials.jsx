@@ -50,5 +50,4 @@ const Testimonials = () => {
         </div>
     )
 }
-
 export default Testimonials;
