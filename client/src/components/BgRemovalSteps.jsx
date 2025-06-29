@@ -27,5 +27,4 @@ const BgRemovalSteps = () => {
         </div>
     )
 }
-
 export default BgRemovalSteps
