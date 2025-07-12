@@ -8,6 +8,7 @@ const Testimonials = () => {
                 They love us. You will too.
             </h2>
 
+
             {/* Body section */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {testimonials.map((testimonial) => (
